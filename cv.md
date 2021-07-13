@@ -30,3 +30,11 @@ ___
 ## Work experience
 I don't have work experience in Programming but I think that everyone can try himself in it, and than decide in process - "To be or not to be...". 
 ___
+## Education
+ - __*2003-2005*__ «Minsk State Mechanical-Engineering College
+   - Accounting analysis and control
+     - _Accountant_
+- __*2005-2009*__ "Belarusian State Pedagogical University Named After Maxim Tank" 
+   - Physics Department (_Physics and informatics_)
+     -  _Teacher_   
+___
