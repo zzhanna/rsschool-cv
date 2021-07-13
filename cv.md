@@ -23,13 +23,17 @@ ___
   
   _my own professional groups_: [![Vk](https://alkorshtori.ucoz.net/images/vk.png)](https://vk.com/fotodrugminsk) [![Instagram](https://www.shipshewanafurniture.com/images/layout/instagram-icon.png)](https://instagram.com/fotodrugby)
 ___
+
 ## Code examples
 Примеры кода
+
 ___
+
 
 ## Work experience
 I don't have work experience in Programming but I think that everyone can try himself in it, and than decide in process - "To be or not to be...". 
 ___
+
 ## Education
  - __*2003-2005*__ «Minsk State Mechanical-Engineering College
    - Accounting analysis and control
@@ -38,8 +42,8 @@ ___
    - Physics Department (_Physics and informatics_)
      -  _Teacher_   
 ___
-## Estimated English level
 
+## Estimated English level
 <img src="https://cdn.efset.org/efset-widget/img/certificate_35.png" width="300">
 
 [Сертификат от Efset](https://www.efset.org/cert/go6Zd5) 
