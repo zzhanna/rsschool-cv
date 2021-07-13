@@ -38,3 +38,8 @@ ___
    - Physics Department (_Physics and informatics_)
      -  _Teacher_   
 ___
+## Estimated English level
+
+<img src="https://cdn.efset.org/efset-widget/img/certificate_35.png" width="300">
+
+[Сертификат от Efset](https://www.efset.org/cert/go6Zd5) 
