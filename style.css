@@ -11,22 +11,25 @@ a {
 }
 
 /*text font*/
-#color_black {
+#color_black_oblique {
    color:black;
+   font-style: oblique;
+}
+#color_black_bold {
+   color:black;
+   font-weight:bold;
 }
 #cursive_text {
 font-style:oblique ;
 }
 body {
-   margin: 0px;
+      margin: 0px;
    font-family: Arial, Helvetica, sans-serif;
 }
 
- ul:first-of-type {
-    font-style: oblique;
- }
  li {
 margin: 2px 13px 2px 10px;
+line-height: 130%;
  }
   .all-task {
      width: 100%;
@@ -51,34 +54,38 @@ margin: 2px 13px 2px 10px;
    color: black;
 }  
 .right-column {
-   padding: 20px 20px 20px 50px;
+   padding: 20px 20px 20px 90px;
    width: 700px;
    background-color: #fbfbfb;
    color: black;
    font-size: 24px;
 }   
 .block_contacts {
-      color: white;
+   line-height: 130%;
+   color: white;
    font-size: 24px;
-   margin-top: 15px;
-   background-color: #bc6264;
+   margin-top: 25px;
+   background-color: rgb(188, 98, 100);
    padding: 20px 10px;
    width: 440px;
    height: auto;
    position: relative;
-   box-shadow: -20px 20px 40px 0px rgb(0 0 0 / 12%) inset;
+   box-shadow: 14px -12px 0px 0px rgb(98 188 186);
 }
 .block_experience {
-   font-style: oblique;
+   line-height: 130%;
+   text-align: justify;
    color: white;
 font-size: 24px;
-margin-top: 15px;
+margin-top: 25px;
 background-color: #bc6264;
-padding: 20px 0px 20px 25px;
-width: 440px;
+padding: 20px 20px 20px 25px;
+    width: 415px;
 height: auto;
 position: relative;
+box-shadow: 14px -12px 0px 0px rgb(98 188 186);
 }
+/*footer*/
 .footer_block {
    text-align:center ;
    color: white;
@@ -87,23 +94,28 @@ position: relative;
    padding: 50px 50px;
    height: auto;
    position: relative;
-   
-}
+   }
+
 /*h1-h6*/
 h1 {
       font-family:Verdana, Geneva, Tahoma, sans-serif ;
      font-size: 55px;
      color: #bc6264;
 }
-h2 {
+.h2_left {
    font-family: Verdana, Geneva, Tahoma, sans-serif;
-      font-size: 30px;
+      font-size: 35px;
       padding: 0px 10px 0px 20px;
       text-shadow: 2px -2.5px 0px black;
 }
-h3 {
-   h2 {
+.h2_right {
       font-family: Verdana, Geneva, Tahoma, sans-serif;
-         font-size: 30px;
+         font-size: 35px;
          padding: 0px 10px 0px 20px;
+        }
+        /*tel*/
+        .tel {
+           padding-left: 0px;
+           color: rgb(255, 255, 255);
+           text-decoration: none;
         }
