@@ -44,11 +44,16 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 300;}
    font-weight: 500;
  }
 
- 
+ @font-face {
+   font-family: Roboto;
+   src: url("font/Roboto-MediumItalic");
+   font-style: italic;
+ }
 
 body{
    margin: 0px;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   scroll-behavior: smooth;
 }
 
 :root {
@@ -276,6 +281,15 @@ p {
    color: #000000;
 }
 
+h3 {
+   font-size: calc(16px + 32*(40vw/1092));
+   padding: 5px 12px;
+   font-family: 'Roboto', sans-serif;
+   font-style: italic;
+   color: var(--bg-pink);
+}
+
+
 
 progress {
     width: 15vw;
@@ -301,16 +315,17 @@ progress::-webkit-progress-bar {
 }
 
 .all-task {
-   max-width: 1920px;
-   margin: 0px;
+  
    background: var(--bg-pink);
    height: 100%;
+   display: flex; 
+   flex-direction: column;
+  margin: 0 auto;
 }
 
 
 .general-section {
-   width: 80vw;
-   min-height: 80vh;
+   max-width: 1280px;
    margin: 0 auto;
    box-shadow: 0px 0px 16px 5px rgb(0 0 0 / 32%);
    background: var(--bg-grey);
@@ -323,7 +338,7 @@ progress::-webkit-progress-bar {
 
 .left-column{
 width: 35vw;
-background: var(--bg-pinkLight);
+background: var(--bg-blue);
 }
 
 .photo {
@@ -331,11 +346,6 @@ background: var(--bg-pinkLight);
    height: auto;
    box-shadow: 5px -5px 0px 0px var(--bg-blue);
 }
-
-.left-column-2 {
-   background: var(--bg-blue);
-}
-
 
 .block_contacts, .block_experience, .skills , .about-me{
    padding: 10px 10px 15px 20px;
@@ -406,17 +416,30 @@ background: var(--bg-pinkLight);
 #code-style {
    width: 35vw;
    margin: 30px 20px;
-   padding: 10px 20px;
    font-size: 18px;
    box-shadow: 4px -4px 0px 0px var(--bg-pink);
-   background-color: var(--bg-greyLight);
-   overflow: auto;
+   }
+
+
+.projects{
+   padding: 35px 10px 15px 0px;
+   line-height: 150%;
 }
+
+.project-image{
+       width: 40vw;
+       border-radius: 10%;
+       margin-left: 15px; 
+       margin-top: 10px;
+       box-shadow: 6px 9px 6px -5px gr
+}
+
 
 .certif {
    width: 20vw;
    margin-left: 90px;
 }
+
 
 
 /* footer */
@@ -487,6 +510,10 @@ progress {
 #p-h1 {
    font-size: calc(3px + 6*(80vw/320));
   margin: 5px 25% 15px;
+}
+
+.project-image {
+   width: 65vw;
 }
 
 }
@@ -568,6 +595,8 @@ progress {
    #code-style{
       width: 34vw;
    }
+   .project-image {
+      width: 37vw;
 }
 
 
@@ -610,6 +639,8 @@ width: 35vw;
    #code-style{
       width: 37w;
    }
+
+  
 }
 
 @media (min-width: 925px){
