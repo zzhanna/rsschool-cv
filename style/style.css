@@ -337,7 +337,10 @@ progress::-webkit-progress-bar {
 }
 
 /* left-column css */
-
+iframe{
+   width: 100%;
+   height: 100%;
+}
 .left-column{
 width: 35vw;
 height: 100%;
@@ -409,12 +412,15 @@ background: var(--bg-blue);
    font-weight: bold;
 }
 
-#color_black_bold1, #color_black_bold2, #color_black_bold3, #color_black_bold4, #color_black_bold5, #color_black_bold6{
+#color_black_bold1, #color_black_bold2, #color_black_bold3, #color_black_bold4, #color_black_bold5, #color_black_bold6, #color_black_bold7, #color_black_bold8, #color_black_bold9, #color_black_bold10, #color_black_bold11, #color_black_bold12, #color_black_bold13, #color_black_bold14{
    color: #000000;
    font-weight:bold;
 }
 
-
+#bold1, #bold2, #bold3, #bold4{
+   color: #000000;
+   font-weight:bold;
+}
 /* right-column css */
 
 .right-column{
