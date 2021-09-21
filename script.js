@@ -34,3 +34,6 @@ if (iconMenu) {
         menuBody.classList.toggle('_active');
     });
 }
+
+
+console.log('My score in Pull request ---> https://github.com/zzhanna/rsschool-cv/pull/4') 
